@@ -1,0 +1,60 @@
+.navbar {
+    background-color: rgb(40, 90, 240);
+    padding: 20px;
+    letter-spacing: 1px;
+}
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar nav>a:nth-child(3) {
+    padding: 0 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.navbar nav>a:nth-child(3):hover{
+    background-color: #fff;
+    color: #333;
+}
+.navbar a h2 {
+    margin: 0;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 18px;
+}
+.themeBtn {
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.themeBtn:hover {
+    transform: scale(1.2);
+}
+.themeBtn i {
+    margin-right: 10px;
+}
+.auth {
+    display: flex;
+    width: 25%;
+}
+.auth a {
+    margin-left: 20px;
+}
+.logOut {
+    cursor: pointer;
+}
+.logOut:hover {
+    text-decoration: underline;
+}
+.navbar a.recipeCreateBtn {
+    display: none;
+}
